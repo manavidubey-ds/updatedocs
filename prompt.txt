@@ -1,0 +1,31 @@
+f"""
+Generate a detailed financial summary report addressing the following questions with strict, results-oriented outputs:
+
+1. Why do we like this stock?
+   - Provide a concise rational (50-100 words) highlighting key positive attributes based on available data.
+
+2. What has changed between this and the previous quarter?
+   -Deliver a 100–200-word summary using LLM analysis of results files (e.g., company results updates).
+
+3. What are the conviction level and fair values? State the investment conviction (e.g., high/medium/low) and estimated fair value range based on financial models.
+
+4. How would you assess the quality of the company? Provide a 50-100 word assessment of the company’s quality (e.g., financial stability, management).
+
+5. What is the commentary on growth? 
+     a. List all  analyst questions and corresponding management responses. Do not include analyst names.
+     b. Generate a 200-word summary  of earnings call transcript.
+     c. Include key management commentary on growth prospects.
+
+6. What are the ESG considerations?
+   - Outline key environmental, social, and governance factors (50-100 words) based on available data.
+
+7. What are the key risks to the thesis?
+   - List and briefly describe (50-100 words) the primary risks to the investment rational.
+
+8. Provide a summary financial table.
+   - Extract profit and loss tab data yearly basis not quarter basis from excel file and give all the details in excel format itself. Output should be in excel format not in JSON. Also do not attach excel file, include json or excel content into response itself
+
+Ensure all responses are concise, data-driven, and based on provided files where specified.  
+Enure in the response keep questions as it is phrased in the prompt, do not change question format or question line from the prompt.
+
+"""
